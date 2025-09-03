@@ -1,2 +1,15 @@
- "format": "prettier . --write",
- "format:check": "prettier . --check"
+{
+    "scripts": {
+      "dev": "next dev --turbopack",
+        "lint": "next lint",
+        "format": "prettier . --write",
+        "format:check": "prettier . --check"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "eslint": "^9.34.0",
+        "eslint-config-next": "15.4.6",
+        "eslint-config-prettier": "^10.1.8",
+        "prettier": "^3.6.2",
+    }
+}
