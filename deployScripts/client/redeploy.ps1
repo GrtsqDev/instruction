@@ -1,0 +1,1 @@
+ssh deploy@server.ru "bash -lc '~/deploy.sh'"
